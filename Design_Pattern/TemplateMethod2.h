@@ -16,6 +16,7 @@ class Cricket
 	:public Game
 {
 public:
+	
 	virtual void initialize();
 	virtual void startPlay();
 	virtual void endPlay();

@@ -150,14 +150,21 @@
     <ClCompile Include="Adapter.cpp" />
     <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="ChainOfResponsibility.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Command2.cpp" />
     <ClCompile Include="Composite.cpp" />
     <ClCompile Include="Decorator.cpp" />
     <ClCompile Include="Decorator_2.cpp" />
     <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="Flyweight.cpp" />
+    <ClCompile Include="Flyweight2.cpp" />
     <ClCompile Include="myMain.cpp" />
+    <ClCompile Include="Observer.cpp" />
     <ClCompile Include="prototype.cpp" />
     <ClCompile Include="Proxy.cpp" />
     <ClCompile Include="Proxy2.cpp" />
+    <ClCompile Include="Strategy.cpp" />
     <ClCompile Include="TemplateMethod.cpp" />
     <ClCompile Include="TemplateMethod2.cpp" />
   </ItemGroup>
@@ -166,13 +173,21 @@
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="Bridge.h" />
     <ClInclude Include="Builder.h" />
+    <ClInclude Include="ChainOfResponsibility.h" />
+    <ClInclude Include="ChainOfResponsibility2.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Command2.h" />
     <ClInclude Include="Composite.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Decorator_2.h" />
     <ClInclude Include="Factory.h" />
+    <ClInclude Include="Flyweight.h" />
+    <ClInclude Include="Flyweight2.h" />
+    <ClInclude Include="Observer.h" />
     <ClInclude Include="prototype.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="Proxy2.h" />
+    <ClInclude Include="Strategy.h" />
     <ClInclude Include="TemplateMethod.h" />
     <ClInclude Include="TemplateMethod2.h" />
   </ItemGroup>

@@ -57,6 +57,27 @@
     <ClCompile Include="TemplateMethod2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ChainOfResponsibility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Strategy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory.h">
@@ -96,6 +117,30 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TemplateMethod2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsibility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainOfResponsibility2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Command2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
