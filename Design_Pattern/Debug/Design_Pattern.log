@@ -1,6 +1,1 @@
-﻿  myMain.cpp
-  Strategy.cpp
-  正在生成代码...
-cl : 命令行 warning D9028: 最小重新生成失败，正在转换为标准生成
-  Design_Pattern.vcxproj -> D:\vs_test\Design_Pattern\Debug\Design_Pattern.exe
-  Design_Pattern.vcxproj -> D:\vs_test\Design_Pattern\Debug\Design_Pattern.pdb (Full PDB)
+﻿LINK : fatal error LNK1168: 无法打开 D:\vs_test\Design_Pattern\Debug\Design_Pattern.exe 进行写入

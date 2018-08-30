@@ -262,9 +262,180 @@ void main_Strategy()
 	std::cout << "10 - 5 = " << context->executeStategy( 10, 5 ) << std::endl;
 	
 }
+
+#include "State.h"
+/*智能指针的问题*/
+void main_State()
+{
+	std::shared_ptr<Contexts> context = std::make_shared<Contexts>();
+	std::shared_ptr<StartState>startstate = std::make_shared<StartState>();
+	startstate->doAction( context );
+
+	printf( "startstate : 0x%x\n", startstate.get() );
+	printf( "context : 0x%x\n", context.get() );
+	std::cout <<startstate.use_count()<<" "<< context->getState()->toString();
+	
+	/*std::shared_ptr<StopState> stopstate = std::make_shared<StopState>();
+	std::shared_ptr<StopState> stopstate1 = stopstate;
+	/ *StopState* stopstate = new StopState();
+	StopState* stopstate1 = stopstate;* /
+	stopstate->doAction( context );
+	//std::cout << stopstate.use_count() << " " << context->getState()->toString();
+	printf( "0x%x\n", stopstate.get() );
+	printf( "0x%x\n", stopstate1.get() );
+	printf( "0x%p\n", stopstate.get() );
+	printf( "0x%p\n", stopstate1.get() );
+
+	
+	std::cout << "\n" << stopstate << " ," 
+		<< stopstate1 << " ,\n";*/
+}
+
+#include "Iterator.h"
+void main_Iterator2()
+{
+	std::shared_ptr<ConcreateAggregate> aggregate = std::make_shared<ConcreateAggregate>( 4 );
+	ConcreateIterater2<ConcreateAggregate> iteator( aggregate );
+	while (!iteator.IsDone())
+	{
+		std::cout << iteator.CurrentItem() << std::endl;
+		iteator.Next();
+	}
+
+}
+#include "Iterator.h"
+#include <iostream>
+int main_Iterator()
+{
+	Aggregate* pAggregate = new ConcreateAggregate( 4 );
+	Iterater* pIterater = new ConcreateIterater( pAggregate );
+	for ( ; false == pIterater->IsDone(); pIterater->Next() )
+	{
+		std::cout << pIterater->CurrentItem() << std::endl;
+	}
+	return 0;
+}
+
+//测试=delete 在类中的作用
+class Foo
+{
+public:
+	void show(){ std::cout << "Foo\n"; }
+	void* operator new(std::size_t) = delete;
+};
+void main_Foo()
+{
+	Foo f;
+	f.show();
+	//Foo ff = new Foo();//出错
+
+}
+////////////////////////////////////
+
+//智能指针shared_ptr 的存在问题
+#include <memory>
+class TestB;
+class TestA
+{
+public:
+	TestA()
+	{
+		std::cout << "TestA()" << std::endl;
+	}
+	void ReferTestB( std::shared_ptr<TestB> test_ptr )
+	{
+		m_TestB_Ptr = test_ptr;
+	}
+	~TestA()
+	{
+		std::cout << "~TestA()" << std::endl;
+	}
+private:
+	std::shared_ptr<TestB> m_TestB_Ptr; //TestB的智能指针
+};
+
+class TestB
+{
+public:
+	TestB()
+	{
+		std::cout << "TestB()" << std::endl;
+	}
+
+	void ReferTestB( std::shared_ptr<TestA> test_ptr )
+	{
+		std::cout << "\n count:" << test_ptr.use_count();
+		m_TestA_Ptr = test_ptr;
+		std::cout << "\n m_T:" << m_TestA_Ptr;
+		std::cout << "\n t_T:" << test_ptr;
+		std::cout << "\n count:" << test_ptr.use_count();
+	}
+	~TestB()
+	{
+		std::cout << "~TestB()" << std::endl;
+	}
+	std::shared_ptr<TestA> m_TestA_Ptr; //TestA的智能指针
+};
+
+
+int main_shared()
+{
+	std::shared_ptr<TestA> ptr_a = std::make_shared<TestA>();
+	std::shared_ptr<TestB> ptr_b = std::make_shared<TestB>();
+	std::cout << "\n ptr_a:" << ptr_a.use_count();
+	ptr_a->ReferTestB( ptr_b );
+	ptr_b->ReferTestB( ptr_a );
+	std::cout << "\n ptr_a:" << ptr_a.use_count();
+	return 0;
+}
+//-----------------------------------------
+
+//----------C---
+#include<stdio.h>
+void _scanf( float* i )
+{
+	scanf_s( "%f", i );
+}
+
+
+
+
 int main( int argc, char* argv[] )
 {
+	main_State();
+	//main_shared();
+	std::cout << "\n main\n";
+
+	/*//-----test c 
+	float i = 0;
+	_scanf( &i );
+	std::cout << "i:" << i;*/
 	
-	main_Strategy();
-	std::cout << "main\n";
+	std::shared_ptr<StopState> stopstate = std::make_shared<StopState>();
+	std::shared_ptr<StopState> stopstate1 = stopstate;
+	std::shared_ptr<StopState> stopstate2 = std::make_shared<StopState>();
+	std::shared_ptr<StopState> stopstate3 = stopstate2;
+	/*StopState* stopstate4 = new StopState();
+	StopState stopstate5 = *stopstate4;*/
+	std::cout << "\n" << stopstate << " ," << stopstate1 << " ,"
+		<< stopstate2 << " ," << stopstate3 << " ,\n";
+	std::cout << "\n" << stopstate.use_count() <<
+		" ," << stopstate1.use_count() << " ,"
+		<< stopstate2.use_count() << " ,"
+		<< stopstate3.use_count() << " ,\n";
+
+	std::cout << "-------------------"
+		<<"---------------- ";
+	stopstate = stopstate3;
+	std::cout << "\n" << stopstate << " ," << stopstate1 << " ,"
+		<< stopstate2 << " ," << stopstate3 << " ,\n";
+	std::cout << "\n" << stopstate.use_count() <<
+		" ," << stopstate1.use_count() << " ,"
+		<< stopstate2.use_count() << " ,"
+		<< stopstate3.use_count() << " ,\n";
+	printf( "0x%x\n", stopstate.get() );
+	printf( "0x%x\n", stopstate1.get() );
+	printf( "0x%p\n", stopstate2.get() );
+	printf( "0x%p\n", stopstate3.get() );
+	/*delete stopstate4;*/
 }

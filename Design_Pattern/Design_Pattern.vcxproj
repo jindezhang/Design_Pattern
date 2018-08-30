@@ -159,11 +159,13 @@
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Flyweight.cpp" />
     <ClCompile Include="Flyweight2.cpp" />
+    <ClCompile Include="Iterator.cpp" />
     <ClCompile Include="myMain.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="prototype.cpp" />
     <ClCompile Include="Proxy.cpp" />
     <ClCompile Include="Proxy2.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="Strategy.cpp" />
     <ClCompile Include="TemplateMethod.cpp" />
     <ClCompile Include="TemplateMethod2.cpp" />
@@ -183,13 +185,19 @@
     <ClInclude Include="Factory.h" />
     <ClInclude Include="Flyweight.h" />
     <ClInclude Include="Flyweight2.h" />
+    <ClInclude Include="Iterator.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="prototype.h" />
     <ClInclude Include="Proxy.h" />
     <ClInclude Include="Proxy2.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="Strategy.h" />
     <ClInclude Include="TemplateMethod.h" />
     <ClInclude Include="TemplateMethod2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
