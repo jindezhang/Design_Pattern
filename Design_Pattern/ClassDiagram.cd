@@ -1,32 +1,627 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Iterater">
-    <Position X="1" Y="1.25" Width="1.5" />
+    <Position X="5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAACAAAgAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Iterator.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConcreateAggregate">
-    <Position X="3.5" Y="4" Width="2.5" />
+    <Position X="0.5" Y="2.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAFihAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Iterator.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ConcreateIterater">
-    <Position X="0.5" Y="4.5" Width="2.5" />
+    <Position X="4.5" Y="3.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AhAAACAAAABAAQAAAQAAAAAAAABAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>Iterator.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Aggregate" Collapsed="true">
-    <Position X="4" Y="1.25" Width="1.5" />
+    <Position X="1" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEiAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>Iterator.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Foo" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>myMain.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestA" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myMain.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestB" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>myMain.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractProductA" Collapsed="true">
+    <Position X="16.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateProductA1" Collapsed="true">
+    <Position X="15.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateProductA2" Collapsed="true">
+    <Position X="17.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractProductB" Collapsed="true">
+    <Position X="16.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateProductB1" Collapsed="true">
+    <Position X="15.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateProductB2" Collapsed="true">
+    <Position X="17.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIACAAAAAAAAgAAAAAAAEAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateFactory1" Collapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAGAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateFactory2" Collapsed="true">
+    <Position X="17.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>AbstractFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Target" Collapsed="true">
+    <Position X="15.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAACAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adaptee" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Adapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter" Collapsed="true">
+    <Position X="15.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAABAAgAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Abstraction" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Implementor" Collapsed="true">
+    <Position X="11.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAIAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateImplementorA" Collapsed="true">
+    <Position X="10.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAQAAAAAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateImplementorB" Collapsed="true">
+    <Position X="12.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAgAAAAAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Builder" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Director" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateBuilder1" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateBuilder2" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Builder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Handler" Collapsed="true">
+    <Position X="6.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateHandler1" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAQAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateHandler2" Collapsed="true">
+    <Position X="7.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAEAAQAAAAAAAAA=</HashCode>
+      <FileName>ChainOfResponsibility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="18.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Receiver" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Invoker" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAIAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateComand" Collapsed="true">
+    <Position X="18.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQAAEAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order" Collapsed="true">
+    <Position X="1.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stock" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABAAAAAAAAAAAAAgAAEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Command2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Broker" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Command2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuyStock" Collapsed="true">
+    <Position X="0.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAEAIAAAAAAAAEAAAA=</HashCode>
+      <FileName>Command2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SellStock" Collapsed="true">
+    <Position X="2.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAEAAAAAAAAAIAAAAAAAAAAAgA=</HashCode>
+      <FileName>Command2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAAAAAAAIABAAAAAAAAAAAAAFAAAAAAAA=</HashCode>
+      <FileName>Composite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaf" Collapsed="true">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECCAAAAAA=</HashCode>
+      <FileName>Composite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAABIABAAAAAAAAAAAAAEAAAAAAAg=</HashCode>
+      <FileName>Composite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component2" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Decorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAgAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateComponent" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAABA=</HashCode>
+      <FileName>Decorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateDecorator" Collapsed="true">
+    <Position X="12.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABEAAAAAAAA=</HashCode>
+      <FileName>Decorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hero" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorator_2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlindMonk" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator_2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skills" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Decorator_2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Skill_q" Collapsed="true">
+    <Position X="12.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAIAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorator_2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Procduct" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateProduct" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Creator" Collapsed="true">
+    <Position X="12.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateCreator" Collapsed="true">
+    <Position X="12.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flyweight" Collapsed="true">
+    <Position X="9.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACBAAAAAAAAAAQAAAAAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>Flyweight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyweightFactory" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAABAAAAAAAI=</HashCode>
+      <FileName>Flyweight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateFlyweight" Collapsed="true">
+    <Position X="9.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkIAAAAAAA=</HashCode>
+      <FileName>Flyweight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="6.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAgIAAA=</HashCode>
+      <FileName>Flyweight2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShapeFactory" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIgAAAAAAAAAAAEAAABAAAAAAAAAA=</HashCode>
+      <FileName>Flyweight2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Circle" Collapsed="true">
+    <Position X="6.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAgAAAAAGAAAAAAgAAACAAIBgAAAAAAA=</HashCode>
+      <FileName>Flyweight2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateIterater2&lt;T&gt;" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAICAAAAAAAQAAAAAAAAEAAABAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubjectOb" Collapsed="true">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABEAAAAAAAAIAAAAACAAAQIAgAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateSubject" Collapsed="true">
+    <Position X="3.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateObserver" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prototype" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAABA=</HashCode>
+      <FileName>prototype.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreatePrototype1" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>prototype.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreatePrototype2" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>prototype.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RealSubject" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Proxy" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAgAIAAAAgAAAAAAA=</HashCode>
+      <FileName>Proxy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAABIAAAAAAAAAAAA=</HashCode>
+      <FileName>Proxy2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReallImage" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAEAACAAgAAA=</HashCode>
+      <FileName>Proxy2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProxyImage" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAJAAAAAgA=</HashCode>
+      <FileName>Proxy2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAABAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StartState" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAABAAAAAAAAAAACAAABAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StopState" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAAIAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Contexts" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAQ=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stategy" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationAdd" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OperationSub" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Context" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIiAAAAAAAAAAAAAAAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Strategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractClass" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAACAAAAAAACQAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>TemplateMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConcreateClass" Collapsed="true">
+    <Position X="15.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQAAAEAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>TemplateMethod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAEAAAAAAAiAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateMethod2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cricket" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateMethod2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Football" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateMethod2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="STATE" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Flyweight.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DATA" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>

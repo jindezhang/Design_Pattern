@@ -3,9 +3,7 @@ d:\vs_test\design_pattern\design_pattern\mymain.cpp(274): warning C4477: “prin
 d:\vs_test\design_pattern\design_pattern\mymain.cpp(274): warning C4313: “printf”: 格式字符串中的“%x”与“StartState *”类型的参数 1 冲突
 d:\vs_test\design_pattern\design_pattern\mymain.cpp(275): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Contexts *”
 d:\vs_test\design_pattern\design_pattern\mymain.cpp(275): warning C4313: “printf”: 格式字符串中的“%x”与“Contexts *”类型的参数 1 冲突
-d:\vs_test\design_pattern\design_pattern\mymain.cpp(439): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“StopState *”
-d:\vs_test\design_pattern\design_pattern\mymain.cpp(439): warning C4313: “printf”: 格式字符串中的“%x”与“StopState *”类型的参数 1 冲突
-d:\vs_test\design_pattern\design_pattern\mymain.cpp(440): warning C4477: “printf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“StopState *”
-d:\vs_test\design_pattern\design_pattern\mymain.cpp(440): warning C4313: “printf”: 格式字符串中的“%x”与“StopState *”类型的参数 1 冲突
+  Facade.cpp
+  正在生成代码...
   Design_Pattern.vcxproj -> D:\vs_test\Design_Pattern\x64\Debug\Design_Pattern.exe
   Design_Pattern.vcxproj -> D:\vs_test\Design_Pattern\x64\Debug\Design_Pattern.pdb (Full PDB)

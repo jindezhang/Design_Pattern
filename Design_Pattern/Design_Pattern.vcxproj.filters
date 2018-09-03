@@ -84,6 +84,18 @@
     <ClCompile Include="Iterator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Memento.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Visitor2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Facade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory.h">
@@ -153,6 +165,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

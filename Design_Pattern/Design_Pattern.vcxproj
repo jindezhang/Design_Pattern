@@ -156,10 +156,12 @@
     <ClCompile Include="Composite.cpp" />
     <ClCompile Include="Decorator.cpp" />
     <ClCompile Include="Decorator_2.cpp" />
+    <ClCompile Include="Facade.cpp" />
     <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Flyweight.cpp" />
     <ClCompile Include="Flyweight2.cpp" />
     <ClCompile Include="Iterator.cpp" />
+    <ClCompile Include="Memento.cpp" />
     <ClCompile Include="myMain.cpp" />
     <ClCompile Include="Observer.cpp" />
     <ClCompile Include="prototype.cpp" />
@@ -169,6 +171,8 @@
     <ClCompile Include="Strategy.cpp" />
     <ClCompile Include="TemplateMethod.cpp" />
     <ClCompile Include="TemplateMethod2.cpp" />
+    <ClCompile Include="Visitor.cpp" />
+    <ClCompile Include="Visitor2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
@@ -182,10 +186,12 @@
     <ClInclude Include="Composite.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Decorator_2.h" />
+    <ClInclude Include="Facade.h" />
     <ClInclude Include="Factory.h" />
     <ClInclude Include="Flyweight.h" />
     <ClInclude Include="Flyweight2.h" />
     <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Memento.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="prototype.h" />
     <ClInclude Include="Proxy.h" />
@@ -194,6 +200,8 @@
     <ClInclude Include="Strategy.h" />
     <ClInclude Include="TemplateMethod.h" />
     <ClInclude Include="TemplateMethod2.h" />
+    <ClInclude Include="Visitor.h" />
+    <ClInclude Include="Visitor2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

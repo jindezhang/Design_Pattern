@@ -398,11 +398,69 @@ void _scanf( float* i )
 }
 
 
+//备忘录模式学习
+#include "Memento.h"
+void main_Memento()
+{
+	// 创建一个原发器
+	Originator* pOriginator = new Originator( "#1 state" );
+	CareTaker* taker = new CareTaker();
+	Memento* pMemento;
+	/*pOriginator->PrintState();
+	// 创建一个备忘录存放这个原发器的状态
+	pMemento = pOriginator->CreateMemento();
+	taker->add( pMemento );*/
+	// 更改原发器的状态
+	pOriginator->SetState( "#2 state" );
+	//pOriginator->PrintState();
+	taker->add( pOriginator->CreateMemento() );
 
+	pOriginator->SetState( "#3 state" );
+	//pOriginator->PrintState();
+	taker->add( pOriginator->CreateMemento() );
+
+	pOriginator->SetState( "#4 state" );
+	pOriginator->PrintState();
+
+	
+	// 通过备忘录把原发器的状态还原到之前的状态
+	pMemento = taker->get( 0 );
+	pOriginator->RestoreState( pMemento );
+	pOriginator->PrintState();
+
+	pMemento = taker->get( 1 );
+	pOriginator->RestoreState( pMemento );
+	pOriginator->PrintState();
+	delete pOriginator;
+	delete taker;
+}
+
+//访问者模式的测试
+#include "Visitor2.h"
+void main_Visitor()
+{
+	ComputerPart* computer = new Computer();
+	ComputerPartVisitor* visit = new ComputerPartDisplayVisitor();
+	computer->accept( visit );
+
+	delete visit;
+	delete computer;
+}
+
+
+//外观模式Demo
+#include "Facade.h"
+void main_Facade()
+{
+	ShapeMaker* shapemaker = new ShapeMaker();
+	shapemaker->drawCircle();
+	shapemaker->drawRectangle();
+	shapemaker->drawSquare();
+}
 
 int main( int argc, char* argv[] )
 {
-	main_State();
+	main_Facade();
 	//main_shared();
 	std::cout << "\n main\n";
 
@@ -411,12 +469,13 @@ int main( int argc, char* argv[] )
 	_scanf( &i );
 	std::cout << "i:" << i;*/
 	
-	std::shared_ptr<StopState> stopstate = std::make_shared<StopState>();
+	//智能指针的学习。包含计数值学习，对应的指向地址学习，以及get()的学习。
+	/*std::shared_ptr<StopState> stopstate = std::make_shared<StopState>();
 	std::shared_ptr<StopState> stopstate1 = stopstate;
 	std::shared_ptr<StopState> stopstate2 = std::make_shared<StopState>();
 	std::shared_ptr<StopState> stopstate3 = stopstate2;
-	/*StopState* stopstate4 = new StopState();
-	StopState stopstate5 = *stopstate4;*/
+	/ *StopState* stopstate4 = new StopState();
+	StopState stopstate5 = *stopstate4;* /
 	std::cout << "\n" << stopstate << " ," << stopstate1 << " ,"
 		<< stopstate2 << " ," << stopstate3 << " ,\n";
 	std::cout << "\n" << stopstate.use_count() <<
@@ -436,6 +495,6 @@ int main( int argc, char* argv[] )
 	printf( "0x%x\n", stopstate.get() );
 	printf( "0x%x\n", stopstate1.get() );
 	printf( "0x%p\n", stopstate2.get() );
-	printf( "0x%p\n", stopstate3.get() );
+	printf( "0x%p\n", stopstate3.get() );*/
 	/*delete stopstate4;*/
 }
